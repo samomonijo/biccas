@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
+
 import OfflineUI from "./OfflineUI";
+import tabIcon from "/tab-icon.png";
 
 import Navbar from "./Navbar";
 import Productivity from "./Productivity";
@@ -26,7 +28,7 @@ function App() {
 
   return (
     <>
-      {/* <link rel="icon" type="image/svg+xml" href="" /> */}
+      <link rel="icon" type="image/svg+xml" href={tabIcon} />
 
       {isOnline ? (
           <div className="font-[Inter]">
