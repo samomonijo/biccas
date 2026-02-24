@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+a, button {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding-inline: 80px;
+  }
+}
