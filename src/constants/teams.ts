@@ -5,11 +5,11 @@ import descriptImg from "../assets/descript.svg";
 import grammarlyImg from "../assets/grammarly.svg";
 
 const teamsImgs = [
-  { imgSrc: unsplashImg, imgAlt: "Unsplash logo" }, 
-  { imgSrc: notionImg, imgAlt: "Notion logo" }, 
-  { imgSrc: intercomImg, imgAlt: "Intercom logo" }, 
-  { imgSrc: descriptImg, imgAlt: "Descript logo" }, 
-  { imgSrc: grammarlyImg, imgAlt: "Grammarly logo" }
+  { src: unsplashImg, alt: "Unsplash logo" }, 
+  { src: notionImg, alt: "Notion logo" }, 
+  { src: intercomImg, alt: "Intercom logo" }, 
+  { src: descriptImg, alt: "Descript logo" }, 
+  { src: grammarlyImg, alt: "Grammarly logo" }
 ];
 
 export default teamsImgs;

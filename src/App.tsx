@@ -6,6 +6,7 @@ import tabIcon from "/tab-icon.png";
 import Navbar from "./Navbar";
 import Productivity from "./Productivity";
 import Teams from "./Teams";
+import Support from "./Support";
 
 function App() {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
@@ -35,6 +36,7 @@ function App() {
             <Navbar />
             <Productivity />
             <Teams />
+            <Support />
           </div>
         ) : (
           <OfflineUI /> 

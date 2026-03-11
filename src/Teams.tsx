@@ -7,13 +7,13 @@ const Teams = () => {
         More than 25,000 teams use Collabs
       </h2>
 
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:flex md:items-center md:justify-between md:space-x-7">
+      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
         {teamsImgs.map((img, i) => {
           return (
             <img 
               key={i} 
-              src={img.imgSrc} 
-              alt={img.imgAlt} 
+              src={img.src} 
+              alt={img.alt} 
               className="w-30"
             />
           )
