@@ -2,18 +2,23 @@ import ratings from "./constants/ratings";
 import getNoOfStarImgs from "./utils/getNoOfStarImgs";
 import yellowStar from "./assets/yellow-star.svg";
 import grayStar from "./assets/gray-star.svg";
+import Header from "./components/Header";
+import SubHeader from "./components/SubHeader";
 
 const SupportRatings = () => {
   return (
     <div className="flex flex-col space-y-15">
       <div className="flex flex-col space-y-5 text-center md:text-left">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
-          How we support our partners all over the world
-        </h1>
+        <Header 
+          content="How we support our partners all over the world"
+          centered={false}
+          color="black"
+        />
 
-        <p className="text-sm text-gray-500">
-          SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software
-        </p>
+        <SubHeader 
+          content="SaaS become a common delivery model for many business application, including office software, messaging software, payroll processing software, DBMS software, management software"
+          centered={false}
+        />
       </div>
 
       <div className="flex items-center justify-center space-x-15 md:items-start md:justify-start">

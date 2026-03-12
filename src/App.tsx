@@ -7,6 +7,7 @@ import Navbar from "./Navbar";
 import Productivity from "./Productivity";
 import Teams from "./Teams";
 import Support from "./Support";
+import Features from "./Features";
 
 function App() {
   const [isOnline, setIsOnline] = useState(navigator.onLine);
@@ -37,6 +38,7 @@ function App() {
             <Productivity />
             <Teams />
             <Support />
+            <Features />
           </div>
         ) : (
           <OfflineUI /> 

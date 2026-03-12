@@ -2,7 +2,7 @@ import teamsImgs from "./constants/teams";
 
 const Teams = () => {
   return (
-    <section className="pb-10 flex flex-col space-y-5 bg-linear-to-r from-[#83C4AB]/80 to-[#FFFFFF]/80">
+    <section className="py-10 flex flex-col space-y-5 bg-linear-to-r from-[#FFFFFF]/80 to-[#83C4AB]/80">
       <h2 className="text-center text-2xl font-bold">
         More than 25,000 teams use Collabs
       </h2>
